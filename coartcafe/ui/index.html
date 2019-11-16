@@ -1,0 +1,38 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    </head>
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    
+    <body style='margin : 0px; overflow: hidden;'>
+        <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
+        <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+
+        <a-assets>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-click-events/models/CesiumMan.gltf"></a-asset-item>
+        </a-assets>
+
+        
+
+            <a-marker type='pattern' preset="custom" url="https://raw.githubusercontent.com/Anran1015/testen/master/pattern-textmarker.patt">
+
+            <a-box color="tomato" depth="0.5" height="0.5" width="0.5" rotation="-90 0 0" position ="0.7 0 -0.1" navigate-on-click="url: http://evernote.com"></a-box>
+
+            <a-plane height="0.2" width="1" rotation="-90 0 0" color ="white" position ="0 0 0.6" navigate-on-click="url: http://ocadu.ca"></a-plane>
+                
+            <a-plane height="0.2" width="1" rotation="-90 0 0" color ="blue" position ="0 0 0.9" navigate-on-click="url: https://www.twitter.com"></a-plane>
+
+            
+        </a-marker>
+
+
+        <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
+        <a-entity camera="" cursor="rayOrigin: mouse" fuse="false">
+        <!-- <a-entity camera="" look-controls cursor="rayOrigin: mouse" >></a-entity> -->
+        </a-scene>
+    </body>
+</html>
