@@ -26,3 +26,6 @@ Shadow adds that black outline to make text easier to see.
 
 
 This code has not been tested yet - no printer to test each of the markers. Please test and readjust position, size, word-count as needed.
+
+Link to Demo:
+https://webspace.ocad.ca/~3158686/coartcafe/app/ar.html
