@@ -12,6 +12,7 @@ This code has been stored in the "nomarkersyet-temp.html"
 2. Replace placeholder marker pattern URLs with appropriate ones.
 3. Copy and paste the code according to instructions in the temporary file to the ar.html file.
 4. Test and fix!
+5. Double check to make sure info has been added correctly - as room for error is huge.
 
 **Note:**
 There are 2 different types of Titles/Shadows/Names - 1 or 2
