@@ -23,3 +23,5 @@ Shadow adds that black outline to make text easier to see.
 
 2 different types of names to define size and location according to title size/location so no overlapping occurs.
 
+
+This code has not been tested yet - no printer to test each of the markers. Please test and readjust position, size, word-count as needed.
