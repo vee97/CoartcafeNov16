@@ -10,3 +10,14 @@ This code has been stored in the "nomarkersyet-temp.html"
 2. Replace placeholder marker pattern URLs with appropriate ones.
 3. Copy and paste the code according to instructions in the temporary file to the ar.html file.
 4. Test!
+
+Note:
+There are 2 different types of Titles/Shadows/Names - 1 or 2
+
+1 suffix is for artwork titles that fit on 1 line. (i.e. title1, shadow1, name1) 
+2 suffix is for artwork titles that fit on 2 lines. (i.e. title2, shadow2, name2)
+
+Shadow adds that black outline to make text easier to see.
+
+2 different types of names to define size and location according to title size/location so no overlapping occurs.
+
