@@ -5,6 +5,8 @@ Situation: Basic framework has been set up. All info added from Artist submissio
 Problem: 5 marker codes could not be added because marker location doesn't exist yet, as the marker hasn't been made.
 This code has been stored in the "nomarkersyet-temp.html"
 
+(Adding marker code with nonexisting markers stops the AR from working completely.)
+
 
 1. Create missing markers (2 for Umber), 1 for Aidan, 1 for Shabad, 1 for Ruby.
 2. Replace placeholder marker pattern URLs with appropriate ones.
